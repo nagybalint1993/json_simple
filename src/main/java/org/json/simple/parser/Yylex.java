@@ -253,7 +253,7 @@ class Yylex {
    * the number of characters from the last newline up to the start of the 
    * matched text
    */
-  private int yycolumn;
+  //private int yycolumn;
 
   /** 
    * zzAtBOL == true <=> the scanner is currently at the beginning of a line
@@ -393,7 +393,6 @@ int getPosition(){
     zzAtEOF  = false;
     zzEndRead = zzStartRead = 0;
     zzCurrentPos = zzMarkedPos = 0;
-    yyline = yychar = yycolumn = 0;
     zzLexicalState = YYINITIAL;
   }
 
