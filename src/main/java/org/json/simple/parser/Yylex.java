@@ -393,7 +393,6 @@ int getPosition(){
     zzAtEOF  = false;
     zzEndRead = zzStartRead = 0;
     zzCurrentPos = zzMarkedPos = 0;
-    yyline = yychar = yycolumn = 0;
     zzLexicalState = YYINITIAL;
   }
 
